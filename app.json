@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ContadorIoTApp",
-    "slug": "ContadorIoTApp",
+    "name": "ThinketCad",
+    "slug": "ThinketCad",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thinketcad.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.thinketcad.app"
     },
     "web": {
       "bundler": "metro",
